@@ -1,6 +1,6 @@
 name: Jonas Fredriksson's blog
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: pretty
 gems:
   - jekyll-sitemap
