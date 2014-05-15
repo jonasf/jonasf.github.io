@@ -2,3 +2,5 @@ name: Jonas Fredriksson's blog
 markdown: redcarpet
 pygments: true
 permalink: pretty
+gems:
+  - jekyll-sitemap
