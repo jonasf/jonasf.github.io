@@ -52,9 +52,9 @@
               <div class="sidebar-module">
                 <h4>Categories</h4>
                 <ol class="list-unstyled">
-                  <li><a href="#">A link</a></li>
-                  <li><a href="#">Another link</a></li>
-                  <li><a href="#">Yet another link</a></li>
+                  {% for category in site.categories %}
+                    <li><a name="{{ category | first }}">{{ category | first }}</a>
+                  {% endfor %}
                 </ol>
               </div>
             </div><!-- /.blog-sidebar -->
