@@ -20,7 +20,7 @@ title: Jonas Fredriksson's blog
   	<h4>Tags</h4>
   	<ol class="list-unstyled">
     	{% for tag in site.tags %}
-      	<li><a name="{{ tag | first }}">{{ tag | first }}</a>
+      	<li><a href="/tags/#{{ tag | first }}">{{ tag | first }}</a>
     	{% endfor %}
   	</ol>
   </div>
