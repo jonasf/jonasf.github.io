@@ -29,34 +29,7 @@
             <p class="lead blog-description">Thoughts mostly about code / development / software engineering.</p>
           </div><!-- /.blog-header -->
           <div class="row">
-            <div class="col-sm-8 blog-main">
               {{ content }}
-            </div><!-- /.blog-main -->
-
-            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-              <div class="sidebar-module sidebar-module-inset">
-                <h4>About me</h4>
-                <p>I am a software engineer / developer living in Sweden and working at <a href="http://www.tradera.com">eBay Sweden/Tradera<a>.</p>
-              </div>
-              <div class="sidebar-module">
-                <h4>Contact me</h4>
-                <ol class="list-unstyled">
-                  <li><a href="https://twitter.com/jonasfr">Twitter</a></li>
-                  <li><a href="https://github.com/jonasf">GitHub</a></li>
-                  <li><a href="https://www.linkedin.com/in/jonasfredriksson">LinkedIn</a></li>
-                  <li><a href="mailto:l.jonas.fredriksson@gmail.com">E-mail</a></li>
-                </ol>
-              </div>
-              <div class="sidebar-module">
-                <h4>Tags</h4>
-                <ol class="list-unstyled">
-                  {% for tag in site.tags %}
-                    <li><a name="{{ tag | first }}">{{ tag | first }}</a>
-                  {% endfor %}
-                </ol>
-              </div>
-            </div><!-- /.blog-sidebar -->
-            
           </div><!-- /.row -->
         </div><!-- /.container -->
 
