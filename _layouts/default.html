@@ -19,6 +19,7 @@
           <div class="container">
             <nav class="blog-nav">
               <a class="blog-nav-item active" href="/">Home</a>
+              <a class="blog-nav-item" href="/blog">Blog</a>
               <a class="blog-nav-item" href="/about">About me</a>
             </nav>
           </div>
@@ -50,10 +51,10 @@
                 </ol>
               </div>
               <div class="sidebar-module">
-                <h4>Categories</h4>
+                <h4>Tags</h4>
                 <ol class="list-unstyled">
-                  {% for category in site.categories %}
-                    <li><a name="{{ category | first }}">{{ category | first }}</a>
+                  {% for tag in site.tags %}
+                    <li><a name="{{ tag | first }}">{{ tag | first }}</a>
                   {% endfor %}
                 </ol>
               </div>
