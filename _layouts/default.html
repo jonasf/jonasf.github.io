@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml" />
+    {% include head.html %}
+  <body>
 
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
+    {% include sidebar.html %}
 
-        <div class="blog-masthead">
-          <div class="container">
-            <nav class="blog-nav">
-              <a class="blog-nav-item active" href="/">Home</a>
-              <a class="blog-nav-item" href="/about">About me</a>
-            </nav>
-          </div>
-        </div>
-
+    <div class="wrap">
+      <div class="masthead">
         <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">{{ site.name }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+      </div>
+    </div>
 
-          <div class="blog-header">
-            <h1 class="blog-title">{{ site.name }}</h1>
-            <p class="lead blog-description">Thoughts mostly about code / development / software engineering.</p>
-          </div><!-- /.blog-header -->
-          <div class="row">
-              {{ content }}
-          </div><!-- /.row -->
-        </div><!-- /.container -->
+    <div class="container content">
+      {{ content }}
+    </div>
+    </div>
 
-        <div class="blog-footer">
-          &copy; 2015 Jonas Fredriksson
-        </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    </body>
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
 </html>
