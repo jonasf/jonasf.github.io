@@ -4,6 +4,9 @@ title:  "Automate setting up your Windows development machine with boxstarter"
 date:   2015-02-22 12:26:01
 tags: automation setup
 ---
+
+This post will introduce you to automated setups of a Windows system using the excellent Boxstarter tool.
+
 ###Why automate the setup of your Windows system?
 
 If you are researching this topic you probably have some thoughts as to why. In my case there are two main reasons:
