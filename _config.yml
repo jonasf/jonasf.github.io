@@ -1,11 +1,15 @@
-name: Jonas Fredriksson
-production_url: http://jonasf.github.io
 markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 gems:
   - jekyll-sitemap
 
+name: Jonas Fredriksson
+baseurl: '/'
+
 author:
   name: Jonas Fredriksson
   email: l.jonas.fredriksson@gmail.com
+  twitter: https://twitter.com/jonasfr
+  github: https://github.com/jonasf
+  linkedin: https://www.linkedin.com/in/jonasfredriksson
