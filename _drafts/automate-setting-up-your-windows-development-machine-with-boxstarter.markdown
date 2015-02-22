@@ -2,7 +2,6 @@
 layout: post
 title:  "Automate setting up your Windows development machine with boxstarter"
 date:   2015-02-22 12:26:01
-categories: blog
 tags: automation setup
 ---
 ###Why automate the setup of your Windows system?
