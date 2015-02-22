@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automate setting up your Windows development machine with boxstarter"
-date:   2014-05-21 22:08:12
+date:   2015-02-22 12:26:01
 categories: blog
 tags: automation setup
 ---
@@ -26,70 +26,47 @@ If you are researching this topic you probably have some thoughts as to why. In 
 
         START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jonasf/windows-machine-setups/master/01-dotnet-development-machine.ps1
 
-	Boxstarter will launch, asking for various confirmations and your credentials.
+	Boxstarter will launch and ask for your permission to run.
 
 _That's it, this is where you go and do other things._
 
-The url argument links to a setup script, in this case the one I use to setup my virtual Windows 8.1 dev boxes. Boxstarter will then proceed to download and install all the software specified in the script and configure your environment, rebooting your system if it is necessary.
-
-Boxstarter will probably run for the better part of an hour (depending on your script) but this is nothing compared to the usual effort required to setup a development environment.
+The _url_ argument links to your setup script, in the example above the script I use to setup my virtual Windows dev machine. Boxstarter will then proceed to download and install all the software specified in the script and configure your environment, rebooting your system if it is necessary.
+	
+The setup time will vary depending on what software you chose to install, but it is safe to say that it is nothing compared to the usual effort required to setup a new machine.
 
 **How do you tell boxstarter what to install?**
 
-Boxstarter uses [Chocolatey][] so you create a PowerShell script with Chocolatey commands like this:
+Boxstarter uses [Chocolatey][] so your first step is to head over to the [Chocolatey page][] and make notes of all the package names of the software you want to install.
+
+The script itself is simply a list of regular Powershell and Chocolatey install commands, ie:
+
+    #Initial windows configuration
+
+    Update-ExecutionPolicy Unrestricted
+    Enable-MicrosoftUpdate
+     
+    #Runtimes and frameworks
+    cinst DotNet4.0
+    cinst DotNet4.5.1
+    cinst javaruntime
+    
+    #Windows enhancements and helpers
+    cinst ConEmu
+    
+    #Visual studio and plugins
+    cinst VisualStudio2013Professional -InstallArguments "/Features:'WebTools SQL'"
+    cinst resharper -Version 8.2.3000.5176
+    cinst VS2013.VSCommands
+    cinst visualstudio2013-webessentials.vsix
 
 
-        #Initial windows configuration
+Save the script as a *.ps1-file and publish it to some place that is easily accessible like Github.
 
-        Update-ExecutionPolicy Unrestricted
-        Enable-MicrosoftUpdate
-        Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+You can find my setup script here: [01-dotnet-development-machine.ps1](https://github.com/jonasf/windows-machine-setups/blob/master/01-dotnet-development-machine.ps1)
 
-        #Runtimes and frameworks
-        cinstm DotNet4.0
-        cinstm DotNet4.5
-        cinstm javaruntime
-        cinstm nodejs.install
-        cinstm ruby
-        cinstm python
-
-        #Windows enhancements and helpers
-        cinstm classic-shell
-        cinstm webpi
-        cinstm ConEmu
-        cinstm ransack
-
-        #Web browsers
-        cinstm GoogleChrome
-        cinstm GoogleChrome.Canary
-        cinstm Firefox
-        cinstm safari
-
-        #Browser plugins
-        cinstm fiddler4
-
-        #Text editors
-        cinstm sublimetext2
-        cinstm SublimeText2.PackageControl -Version 1.6.3
-
-        #Utilities
-        cinstm dotPeek
-        cinstm 7zip
-
-        #Visual studio and plugins
-        cinstm VisualStudio2013Professional -InstallArguments "WebTools SQL"
-        cinstm resharper
-        Install-ChocolateyVsixPackage "VS Commands 2013" http://visualstudiogallery.msdn.microsoft.com/c6d1c265-7007-405c-a68b-5606af238ece/file/106247/14/SquaredInfinity.VSCommands.VS12.vsix
-        Install-ChocolateyVsixPackage "Web Essentials 2013" http://visualstudiogallery.msdn.microsoft.com/56633663-6799-41d7-9df7-0f2a504ca361/file/105627/24/WebEssentials2013.vsix
-
-        #VCS
-        cinstm gitextensions
-        cinstm kdiff3
-
-        #Install windows updates
-        Install-WindowsUpdate -AcceptEula
-
+Good luck with automating your Windows setups!
 
 
 [Boxstarter]: http://boxstarter.org/
 [Chocolatey]: https://chocolatey.org/
+[Chocolatey page]: https://chocolatey.org/
