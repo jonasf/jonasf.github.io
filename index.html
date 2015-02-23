@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Jonas Fredriksson's blog
+enable_comment_count: true
 ---
 
 <h1>Blog Posts</h1>
@@ -13,7 +14,7 @@ title: Jonas Fredriksson's blog
       </a>
     </h2>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date_to_string }} | <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}"></span></span>
 
     {{ post.excerpt }}
   </div>
