@@ -7,6 +7,7 @@ gems:
 name: Jonas Fredriksson
 tagline: Learn something new
 baseurl: '/'
+url: http://fredriksson.io
 
 meta:
   description: Jonas Fredriksson is a software engineer / developer living in Stockholm, Sweden
