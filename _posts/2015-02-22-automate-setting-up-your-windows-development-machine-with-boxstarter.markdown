@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Automate setting up your Windows development machine with boxstarter"
+metadescription: "This post will introduce you to automated setups of a Windows system using the excellent Boxstarter tool."
 date:   2015-02-22 12:26:01
 tags: automation setup
 ---

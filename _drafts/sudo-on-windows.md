@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Sudo on windows?"
-date:   2015-03-30 20:10:01
+metadescription: "If you wish to run a command line command on a Windows OS that requires elevated privileges you have to start an entire new command prompt with administrator privileges by right clicking it and clicking run as administrator. In a Unix-like OS you simply type sudo before the command, enter your password, and run it - much simpler. I decided to play around and see if you could introduce the sudo command in Windows."
+date:   2015-03-31 20:10:01
 tags: windows powershell
 ---
 
