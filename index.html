@@ -15,8 +15,9 @@ enable_comment_count: true
     </h2>
 
     <span class="post-date">{{ post.date | date_to_string }} | <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}"></span></span>
-
-    {{ post.excerpt }}
+    <p>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}<a href="{{ post.url }}">Read more...</a>
+    </p>
   </div>
   {% endfor %}
 </div>
