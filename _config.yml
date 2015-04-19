@@ -19,3 +19,13 @@ author:
   twitter: https://twitter.com/jonasfr
   github: https://github.com/jonasf
   linkedin: https://www.linkedin.com/in/jonasfredriksson
+
+facebook_app_id: 409330955916878
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      is_post: true

@@ -1,0 +1,9 @@
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:title" content="{{ page.title }}"/>
+{% if page.is_post %}
+<meta property="og:type" content="article" />
+<meta property="og:description" content="{{ page.metadescription }}" />
+<meta property="article:author" content="{{ site.url }}/about/" />
+{% endif %}
+<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
