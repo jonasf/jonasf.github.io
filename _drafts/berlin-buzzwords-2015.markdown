@@ -2,13 +2,13 @@
 layout: post
 title:  "Berlin Buzzwords 2015"
 metadescription: "Earlier this week I had the privilege to visit the sixth version of the Berlin Buzzwords conference along with two other colleagues from ebay Sweden"
-date:   2015-06-15 12:01:01
+date:   2015-06-07 20:05:01
 tags: conference
 ---
 
-Earlier this week I had the privilege to visit the sixth version of the [Berlin Buzzwords](https://berlinbuzzwords.de/) conference along with two other colleagues from ebay Sweden. The conference was held at the Postbahnhof venue in the Friedrichshain area of Berlin, very close the the Ostbahnhof railway station. 
+Earlier this week I had the privilege of visiting the sixth version of the [Berlin Buzzwords](https://berlinbuzzwords.de/) conference along with two other colleagues from ebay Sweden. The conference was held at the Postbahnhof venue in the Friedrichshain area of Berlin, very close to the Ostbahnhof railway station. 
 
-Berlin Buzzwords has three tracks: search, store and scale. I went there to hoping learn new things and more specifically to get tips and tricks on Elasticsearch which we use a lot at work.
+Berlin Buzzwords has three tracks: search, store and scale. I went there hoping to learn new things and more specifically to get tips and tricks on Elasticsearch which we use a lot at work.
 
 ###Monday
 
@@ -29,4 +29,4 @@ Wednesday was meetup day. I went to a meetup at a gaming company called Gameduel
 
 There were a lot of sessions, most if not all of the sessions can be found [on this youtube list](https://www.youtube.com/playlist?list=PLq-odUc2x7i-_qWWixXHZ6w-MxyLxEC7s). I encourage anyone interested in search, store or scale to watch a couple of sessions. I am going to watch most of the ones I didn't see live over the the next few days.
 
-Whether I will attend Berlin Buzzwords 2016 is still a good question. It will be on my watch list for next year.
+Whether or not I will attend Berlin Buzzwords 2016 is still a good question. It will be on my watch list for next year.
