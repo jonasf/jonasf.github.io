@@ -2,7 +2,7 @@
 layout: post
 title:  "Build Stuff 2015 Vilnius"
 metadescription: "In late November the development team from Tradera visited the Build Stuff conference in Vilnius, Lithuania."
-date:   2015-12-01 20:05:01
+date:   2015-12-04 22:30:01
 tags: conference
 ---
 
