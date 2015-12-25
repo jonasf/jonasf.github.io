@@ -9,11 +9,9 @@ tags: automation elasticsearch
 At Tradera we needed to collect more granular data about our users than we could get from Google analytics in order to try to understand the behaviour, needs and painpoints of visitors to our site. 
 To achieve this we started to publish events when users completed certain actions on our site like searching for products, placing bids and any action that could be considered a conversion. We would then publish these events to a message queue and feed them into a Elasticsearch cluster.
 
-**Add image of setup**
-
 Initially everything worked really great. We had lots of new data to crunch which quite quickly helped us gain a better understanding of our users.
 
-**image from Kibana**
+<img src="/public/images/curator/kibana.png" alt="Kibana graphs" />
 
 After a few weeks we started running into problems. Since this was an experiment we only had a limited number of machines to run our setup on. We had run out of disk space.
 
