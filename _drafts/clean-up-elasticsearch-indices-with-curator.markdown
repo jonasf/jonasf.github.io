@@ -32,6 +32,8 @@ Our curator command to delete older indices turned out something like this:
 
      curator --host elasticsearch.my-domain.com  delete indices --prefix myindexname-  --older-than 4 --time-unit days --timestring '%Y.%m.%d’
 
+The command above will delete all indices older than four days.
+
 ###Our Curator setup
 
 We set up a Cron job to run the Curator commands every morning.
