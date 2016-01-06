@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Install Raspberry Pi OS image using system tools on OS X"
+title:  "Install Raspberry Pi OS using system tools on OS X"
 metadescription: "You don't need special tools in OS X to get started playing with the Raspberry Pi. The system tools in OS X will do just fine."
-date:   2016-01-06 12:01:01
+date:   2016-01-06 20:01:01
 tags: raspberrypi iot
 ---
 
@@ -10,7 +10,7 @@ You don't need special tools in OS X to get started with the Raspberry Pi. The s
 
 ###Step by step guide:
 
-1\. Download the Raspberry Pi OS of you choice.
+1\. Download the Raspberry Pi OS image of you choice.
 
 2\. Connect your SD card to your computer. I use the SD card reader in my laptop.
 
@@ -49,10 +49,12 @@ In my case:
 
         sudo dd bs=1m if=ubuntu-mate-15.10.1-desktop-armhf-raspberry-pi-2.img of=/dev/disk2
     
-This command will run for some time. When it completed it till print something like this:
+This command will run for some time without any feedback. When it completes it will print something like this:
 
         501+1 records in
         501+1 records out
         526260224 bytes transferred in 293.988535 secs (1790071 bytes/sec)
 
 8\. Plug the SD card into you Raspberry Pi and let the fun begin.
+
+This will currently not work on Windows 10 IoT Core which requires Windows specific tools.
