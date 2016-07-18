@@ -18,13 +18,13 @@ After a few weeks we started running into problems. Since this was an experiment
 Managing the disk space manually was not an option so we started looking for a tool to help us manage cleaning up old Elasticsearch indices. The tool we found was [Curator](https://github.com/elastic/curator).
 Curator is a command line tool that allows you to perform several different operations on elasticsearch indices.
 
-###Curator installation
+### Curator installation
 
 Curator is a Python package, you can install it using [Pip](https://pypi.python.org/pypi/pip)
 
      pip install elasticsearch-curator
 
-###Curator examples
+### Curator examples
 
 We needed to delete indices older than a certain number of days and all our indices names had the following pattern myindexname-yyyy-mm-dd, for example myindexname-2015-12-01.
 
@@ -34,7 +34,7 @@ Our curator command to delete older indices turned out something like this:
 
 The command above will delete all indices older than four days.
 
-###Our Curator setup
+### Our Curator setup
 
 We set up a Cron job to run the Curator commands every morning.
 
@@ -42,7 +42,7 @@ One small gotcha was that % is a special character in the Cron tab, so at first 
 
     --timestring '\%Y.\%m.\%d’
 
-###Conclusion
+### Conclusion
 
 Curator helped us solve our problem with disk space.
 

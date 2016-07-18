@@ -8,7 +8,7 @@ tags: automation setup
 
 This post will introduce you to automated setups of a Windows system using the excellent Boxstarter tool.
 
-###Why automate the setup of your Windows system?
+### Why automate the setup of your Windows system?
 
 If you are researching this topic you probably have some thoughts as to why. In my case there are two main reasons:
 
@@ -16,10 +16,10 @@ If you are researching this topic you probably have some thoughts as to why. In 
 
 2. After having done the task several times before it is quite repetitive which means that there are probably better ways for you to spend your time.
 
-###What is boxstarter?
+### What is boxstarter?
 [Boxstarter][] is a tool that allows you to automate the setup of your Windows development environment using the [Chocolatey][] package manager.
 
-###How do you use boxstarter?
+### How do you use boxstarter?
 
 **It will basically boil down to three steps:**
 

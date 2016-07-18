@@ -17,7 +17,7 @@ The Build Stuff conference is mainly focused on the .NET-platform so the confere
 	<figcaption>Team Tradera at the fussball table</figcaption>
 </figure>
 
-###Favourite sessions
+### Favourite sessions
 
 **Wednesday**
 
@@ -42,6 +42,6 @@ Chris Condron - Unsafe at any Speed - Successful high performance low latency sy
 
 Michael Feathers - The Slow Steady Industry Move Toward Tacit Programming
 
-###Conclusion
+### Conclusion
 
 Being very budget friendly and still managing to attract several good speakers - you can't really go wrong with BuildStuff.

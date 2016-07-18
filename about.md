@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-My name is {{ site.author.name }}. I am a software engineer / developer living in Stockholm, Sweden. I am currently working at <a href="http://www.tradera.com">Tradera Sweden (formerly ebay Sweden)</a>.</p>
+My name is {{ site.author.name }}. I am a software engineer / developer living in Stockholm, Sweden. I am currently working at <a href="http://www.tradera.com">Tradera Sweden (formerly ebay Sweden)</a>.
 
 ## Find me
 <ul class="fa-ul">

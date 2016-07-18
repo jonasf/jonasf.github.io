@@ -8,7 +8,7 @@ tags: raspberrypi iot
 
 You don't need special tools in OS X to get started with the Raspberry Pi. The system tools will do the job of flashing a Raspberry Pi operating system to an SD card without any hassle.
 
-###Step by step guide:
+### Step by step guide:
 
 1\. Download the Raspberry Pi OS image of you choice.
 
