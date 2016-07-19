@@ -1,4 +1,4 @@
-{% if page.enable_comments %}
+{% if page.enable_comments or layout.enable_comments %}
 <script type="text/javascript">
     var disqus_shortname = 'fredrikssonio';
     var disqus_identifier = '{{ page.id }}';
