@@ -14,7 +14,7 @@ enable_comment_count: true
       </a>
     </h2>
 
-    <span class="post-date">{{ post.date | date_to_string }} | <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}"></span></span>
+    <span class="post-date">{{ post.date | date_to_string }} | <span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}" data-disqus-identifier="{{ post.id }}"></span></span>
   	{{ post.content }}
   </div>
   {% endfor %}
