@@ -21,7 +21,7 @@ It was one of the more social conferences I have been to. It was easy to bump in
 
 Making your way to the venue was easy if you stayed at the recommended hotel, it took less than a minute door to door. You didn't even need to put your coat on.
 
-Ian Cooper's talk [Twelve factor apps in .NET](https://vimeo.com/204428794) about the [12-factor methodology](https://12factor.net/) was a great talk. Dan North's talk *Ops and operability* made me think about changing a lot of the ways we work today and Itamar Syn-Hershko's talk [Elasticsearch - Do’s, Don’ts and Pro-Tips](https://vimeo.com/204085393) taught me some good lessons about Elasticsearch that will be immediately helpful at work.
+Ian Cooper's talk [Twelve factor apps in .NET](https://vimeo.com/204428794) about the [12-factor methodology](https://12factor.net/) was a great talk. Dan North's talk [Ops and operability](https://vimeo.com/205526857) made me think about changing a lot of the ways we work today and Itamar Syn-Hershko's talk [Elasticsearch - Do’s, Don’ts and Pro-Tips](https://vimeo.com/204085393) taught me some good lessons about Elasticsearch that will be immediately helpful at work.
 
 <figure>
 	<img src="/public/images/ndclondon2017/12factor.jpg" alt="Lots of buzzwords" />
@@ -30,7 +30,7 @@ Ian Cooper's talk [Twelve factor apps in .NET](https://vimeo.com/204428794) abou
 
 **Thursday**
 
-War stories, learning from the experiences of others, is very useful. Jimmy Bogard's talk *Avoiding microservice megadisasters* contained a lot of good learnings. I didn't know analyzing data could be so much fun until I watched Evelina Gabasova's *Exploring Stack Overflow data*. I got to watch a live recording of a podcast for the first time, .NET Rocks Live! about machine learning was really interesting. Machine Learning is something I really need to look into. 
+War stories, learning from the experiences of others, is very useful. Jimmy Bogard's talk [Avoiding microservice megadisasters](https://vimeo.com/211218483) contained a lot of good learnings. I didn't know analyzing data could be so much fun until I watched Evelina Gabasova's *Exploring Stack Overflow data*. I got to watch a live recording of a podcast for the first time, [.NET Rocks Live! about machine learning](https://vimeo.com/208214488) was really interesting. Machine Learning is something I really need to look into. 
 
 <figure>
 	<img src="/public/images/ndclondon2017/microservices.jpg" alt="A microservice instruction manual" />
