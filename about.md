@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-My name is {{ site.author.name }}. I am a software engineer / developer living in Stockholm, Sweden. I am currently working at <a href="http://www.betssongroup.com/">Betsson Group</a>.
+My name is {{ site.author.name }}. I am a software engineer / developer living in Stockholm, Sweden.
 
 ## Find me
 <ul class="fa-ul">
