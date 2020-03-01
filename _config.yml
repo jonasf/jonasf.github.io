@@ -4,6 +4,9 @@ permalink: pretty
 gems:
   - jekyll-sitemap
 
+permalink: /blog/:year/:month/:day/:title/
+future: true
+
 name: Jonas Fredriksson
 baseurl: '/'
 url: https://fredriksson.io
