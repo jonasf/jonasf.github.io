@@ -5,17 +5,15 @@ gems:
   - jekyll-sitemap
 
 name: Jonas Fredriksson
-tagline: Learn something new
 baseurl: '/'
 url: https://fredriksson.io
 
 meta:
-  description: Jonas Fredriksson is a software engineer / developer living in Stockholm, Sweden
+  description: Jonas Fredriksson is a Software Engineer / IT Architect / Developer living in Stockholm, Sweden
   keywords: Jonas Fredriksson, Stockholm, Software engineer, Developer, Software developer, Blog
 
 author:
   name: Jonas Fredriksson
-  email: l.jonas.fredriksson@gmail.com
   twitter: https://twitter.com/jonasfr
   github: https://github.com/jonasf
   linkedin: https://www.linkedin.com/in/jonasfredriksson

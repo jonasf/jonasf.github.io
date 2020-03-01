@@ -19,8 +19,4 @@ My name is {{ site.author.name }}. I am a software engineer / developer living i
   	<i class="fa-li fa fa-linkedin"></i>
   	<a href="{{ site.author.linkedin }}">LinkedIn</a>
   </li>
-  <li>
-  	<i class="fa-li fa fa-envelope"></i>
-  	<a href="mailto:{{ site.author.email }}">E-mail</a>
-  </li>
 </ul>
