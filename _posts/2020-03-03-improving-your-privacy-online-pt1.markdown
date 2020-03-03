@@ -3,7 +3,7 @@ layout: post
 title:  "Improving your privacy online, part 1"
 metadescription: "We are constantly being tracked online without our consent. These are a few tips to make it more difficult."
 date:   2020-03-03 15:00:01
-tags: privacy ad-blocking tracking tinfoil-hat
+tags: privacy ad-blocking tracking tinfoil-hat raspberrypi
 ---
 
 We are constantly being tracked online. Usually by marketing organizations who want to target you with personalized ads in order to get you to buy more things or sell the information collected about you to others. There is also the possibility that you are being tracked by other entities who want to know what your opinions are on specific topics or where your political sympathies lie.
