@@ -20,6 +20,8 @@ In this blog post I will detail my first steps. I have been doing a few things f
 
 **Stop** using [Google](https://www.google.com) and **start** using [DuckDuckGo](https://duckduckgo.com).
 
+![DuckDuckGo logo](/public/images/privacyonline/duckduckgo.png "DuckDuckGo logo")
+
 While the Google search engine is an absolutely incredible product it is being used to collect data about you to sell ads. DuckDuckGo does not collect or share information about you, at least according to their own statement.
 
 I have been using DuckDuckGo privately for a couple of months. 9 times out of 10 I find what I am looking for but that 10th time I have to fall back to Google. In my work as a software engineer I have to use Google all the time.
@@ -30,6 +32,8 @@ DuckDuckGo will most likely improve in the future so I can use it 100% of the ti
 
 **Stop** using [Google Chrome](https://www.google.se/chrome/) and **start** using [Firefox](https://www.mozilla.org/en-US/firefox/new/) on all devices.
 
+![Firefox logo](/public/images/privacyonline/firefox.png "Firefox logo")
+
 Chrome is, like most Google products, an excellent product. However, you have to actively turn off tracking.
 
 Firefox comes with tracking protection enabled by default. Another awesome feature is that Firefox, unlike Chrome, has support for plugins even in the mobile version for Android. This will help protect you from tracking on your mobile.
@@ -38,13 +42,13 @@ Using Firefox works 99.999% of the time for me. In some exceedingly rare cases w
 
 ### Use browser plugins
 
-Use privacy enhancing browser plugins in Firefox.
+**Start** using privacy enhancing browser plugins in Firefox.
 
 Use [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) to block ads. This will make your browsing experience a joy.
 
 Use [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) by the [EFF](https://www.eff.org/) to block trackers even more.
 
-Use [Facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/) to make it harder for Facebook to track you.
+Use [Facebook container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/) to make it harder for Facebook to track you if you are a Facebook user.
 
 These plugins also work in [Firefox on Android](https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US). I have yet to find an equally good solution for my IOS devices.
 
@@ -61,6 +65,8 @@ Cloudflare DNS is independent, although commercial. It will give you [DNS over H
 On your home network you can easily start using a DNS black hole list. This means that DNS lookups for domains known for tracking or other malicious behaviour will be blocked and no data will be downloaded from those servers. This will allow you to block ads in mobile apps on your devices if they are connected to you local network.
 
 For this I am using the excellent [Pi-Hole](https://pi-hole.net/) project. This does require you to set up a [Raspberry Pi](https://www.raspberrypi.org/), install Pi-Hole on it, install it on your home network and finally having your router use it as a DNS. This may sound complicated but there are good guides on the project page.
+
+![Pi-Hole Dashboard](/public/images/privacyonline/pihole-dashboard.png "Pi-Hole Dashboard")
 
 On my home network the Pi-Hole DNS will block between 5% and 25% of all DNS lookups.
 
