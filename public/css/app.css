@@ -5,6 +5,13 @@ body {
     padding: 1.5rem 1.5rem;
 }
 
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
 .page,
 .post {
   margin-bottom: 4em;
